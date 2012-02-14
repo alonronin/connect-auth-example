@@ -1,3 +1,5 @@
+# Connect-Auth Examples
+
 Facebook and Twitter connect using connect-auth.
 Saving the session to MongoDB using connect-mongo.
 
@@ -8,7 +10,7 @@ change app id's and secrets in app.settings.facebook and app.settings.twitter
 
 run mongodb, you can change settings in express.session store object.
 
-## Options
+## Store Object Options
 
   - `db` Database name
   - `collection` Collection (optional, default: `sessions`) 
