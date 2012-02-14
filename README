@@ -1,0 +1,16 @@
+Facebook and Twitter connect using connect-auth.
+Saving the session to MongoDB using connect-mongo.
+
+cd to connect-auth-example
+npm install
+
+change app id's and secrets in app.settings.facebook and app.settings.twitter
+
+node app.js
+
+callack url's need to point back to /login
+
+if you run from localhost don't forget to create local.host at your hosts file, 
+or just point youe dev.domain.com to your localhost.
+
+I will add more examples later on.
