@@ -7,6 +7,6 @@
     , "stylus": ""
     , "ejs": ""
     , "connect-auth":""
-    / "connect-mongo":""
+    , "connect-mongo":""
   }
 }
